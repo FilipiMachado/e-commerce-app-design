@@ -21,7 +21,6 @@ const Wrapper = styled.div`
 const Left = styled.div`
   flex: 1;
   display: flex;
-  background-color: #f78;
   align-items: center;
 `;
 
@@ -47,7 +46,6 @@ const Input = styled.input`
 const Center = styled.div`
   flex: 1;
   text-align: center;
-  background-color: #f43;
 `;
 
 const Logo = styled.h1`
@@ -61,7 +59,6 @@ const Right = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background-color: #f47;
 `;
 
 const MenuItem = styled.div`
