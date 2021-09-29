@@ -65,6 +65,7 @@ const MenuItem = styled.div`
   font-size: 14px;
   cursor: pointer;
   margin-left: 25px;
+  font-weight: 600;
 `;
 
 const Navbar = () => {
