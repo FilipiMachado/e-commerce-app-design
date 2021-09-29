@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 // Material UI Icons
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
-// Slider items
+// Data
 import { sliderItems } from "../data";
 
 const Container = styled.div`
@@ -38,6 +38,7 @@ const Arrow = styled.div`
 const Wrapper = styled.div`
   height: 100%;
   display: flex;
+  transition: all 1.1s ease;
   transform: translateX(${(props) => props.slideIndex * -100}vw);
 `;
 

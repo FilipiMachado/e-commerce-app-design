@@ -19,5 +19,23 @@ export const sliderItems = [
         title: "MODA POPULAR",
         desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
         bg: "#9EBFC8",
-    }
-]
+    },
+];
+
+export const categories = [
+    {
+        id: 1,
+        img: "",
+        title: "SHIRT STYLE!"
+    },
+    {
+        id: 2,
+        img: "",
+        title: "LOUNGEWEAR LOVE"
+    },
+    {
+        id: 3,
+        img: "",
+        title: "LIGHT JACKETS",
+    },
+];
