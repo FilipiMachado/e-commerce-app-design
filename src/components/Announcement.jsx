@@ -15,7 +15,7 @@ const Container = styled.div`
 const Announcement = () => {
   return (
     <>
-      <Container>Super Deal! Free Shipping on Orders Over $50</Container>
+      <Container>Super promoção! Frete Grátis em Compras Acima de R$100,00 !</Container>
     </>
   );
 };
