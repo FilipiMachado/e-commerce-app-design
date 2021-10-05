@@ -54,7 +54,7 @@ const Newsletter = () => {
         <Desc>Receba ofertas semanais de seus produtos favoritos!</Desc>
         <InputContainer>
           <Input placeholder="Seu email" />
-          <Button>
+          <Button style={{cursor: "pointer" }}>
             <Send />
           </Button>
         </InputContainer>
