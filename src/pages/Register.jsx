@@ -1,6 +1,19 @@
 import styled from "styled-components";
 
-const Container = styled.div``;
+const Container = styled.div`
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.unsplash.com/photo-1570915226741-cc7d678ad7ce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=728&q=80")
+      center;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+`;
 
 const Wrapper = styled.div``;
 
@@ -10,7 +23,7 @@ const Form = styled.form``;
 
 const Input = styled.input``;
 
-const Agreement = styled.div``;
+const Agreement = styled.span``;
 
 const Button = styled.button``;
 
