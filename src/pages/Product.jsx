@@ -44,15 +44,36 @@ const Price = styled.span`
 
 // Filter Div
 
-const FilterContainer = styled.div``;
+const FilterContainer = styled.div`
+  width: 50%;
+  display: flex;
+  margin: 30px 0px;
+  justify-content: space-between;
+`;
 
-const Filter = styled.div``;
+const Filter = styled.div`
+  display: flex;
+  align-items: center;
+`;
 
-const FilterTitle = styled.span``;
+const FilterTitle = styled.span`
+  font-size: 20px;
+  font-weight: 200;
+`;
 
-const FilterColor = styled.div``;
+const FilterColor = styled.div`
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: ${(props) => props.color};
+  margin: 0px 5px;
+  cursor: pointer;
+`;
 
-const FilterSize = styled.select``;
+const FilterSize = styled.select`
+  margin-left: 10px;
+  padding: 4px;
+`;
 
 const FilterSizeOption = styled.option``;
 
@@ -76,13 +97,13 @@ const Product = () => {
             <Price>$ 20</Price>
             <FilterContainer>
               <Filter>
-                <FilterTitle>Cor</FilterTitle>
+                <FilterTitle>Cor: </FilterTitle>
                 <FilterColor color="black" />
                 <FilterColor color="darkblue" />
                 <FilterColor color="gray" />
               </Filter>
               <Filter>
-                <FilterTitle>Tamanho</FilterTitle>
+                <FilterTitle>Tamanho: </FilterTitle>
                 <FilterSize>
                   <FilterSizeOption>PP</FilterSizeOption>
                   <FilterSizeOption>P</FilterSizeOption>
