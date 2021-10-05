@@ -12,6 +12,8 @@ const Input = styled.input``;
 
 const Agreement = styled.div``;
 
+const Button = styled.button``;
+
 const Register = () => {
   return (
     <>
@@ -27,8 +29,9 @@ const Register = () => {
             <Input placeholder="confirm password" />
             <Agreement>
               Ao criar uma conta, eu concordo com os termos de nossa{" "}
-              <b>POLÍTICA DE PRIVACIDADE</b>
+              <b>POLÍTICA DE PRIVACIDADE</b>.
             </Agreement>
+            <Button>CREATE</Button>
           </Form>
         </Wrapper>
       </Container>
