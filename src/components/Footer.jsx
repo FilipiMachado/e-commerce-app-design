@@ -70,6 +70,7 @@ const List = styled.ul`
 const ListItem = styled.li`
   width: 50%;
   margin-bottom: 10px;
+  cursor: pointer;
 `;
 
 // Right Div
@@ -86,7 +87,7 @@ const ContactItem = styled.div`
 `;
 
 const Payment = styled.img`
-  width: 150px;
+  width: 300px;
 `;
 
 const Footer = () => {
@@ -140,7 +141,7 @@ const Footer = () => {
           <ContactItem>
             <MailOutline style={{ marginRight: "10px" }} /> contact@fil.dev
           </ContactItem>
-          <Payment src="https://img.favpng.com/24/22/0/payment-credit-card-buraco-do-padre-flag-sales-png-favpng-bJxiYiS8g1Ex0QGRY03bsKVx5.jpg" />
+          <Payment src="https://i.imgur.com/NXt3eV9.png" />
         </Right>
       </Container>
     </>
