@@ -82,13 +82,33 @@ const AddContainer = styled.div`
   width: 50%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 `;
 
-const AmountContainer = styled.div``;
+const AmountContainer = styled.div`
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+`;
 
-const Amount = styled.span``;
+const Amount = styled.span`
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  border: 2px solid #00a5a5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 5px;
+`;
 
-const Button = styled.button``
+const Button = styled.button`
+  padding: 15px;
+  border: 2px solid #00a5a5;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+`;
 
 const Product = () => {
   return (
@@ -128,9 +148,9 @@ const Product = () => {
             </FilterContainer>
             <AddContainer>
               <AmountContainer>
-                <Remove />
+                <Remove style={{ cursor: "pointer" }} />
                 <Amount>1</Amount>
-                <Add />
+                <Add style={{ cursor: "pointer" }} />
               </AmountContainer>
               <Button>ADD TO CART</Button>
             </AddContainer>
