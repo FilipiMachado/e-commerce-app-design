@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";
 // Style
 import styled from "styled-components";
+import { Add, Remove } from "@material-ui/icons";
 
 const Container = styled.div``;
 
@@ -77,6 +78,18 @@ const FilterSize = styled.select`
 
 const FilterSizeOption = styled.option``;
 
+const AddContainer = styled.div`
+  width: 50%;
+  display: flex;
+  align-items: center;
+`;
+
+const AmountContainer = styled.div``;
+
+const Amount = styled.span``;
+
+const Button = styled.button``
+
 const Product = () => {
   return (
     <>
@@ -113,6 +126,14 @@ const Product = () => {
                 </FilterSize>
               </Filter>
             </FilterContainer>
+            <AddContainer>
+              <AmountContainer>
+                <Remove />
+                <Amount>1</Amount>
+                <Add />
+              </AmountContainer>
+              <Button>ADD TO CART</Button>
+            </AddContainer>
           </InfoContainer>
         </Wrapper>
         <Newsletter />
