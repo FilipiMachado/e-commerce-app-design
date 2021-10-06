@@ -1,4 +1,7 @@
+// Style
 import styled from "styled-components";
+// Responsive Layout
+import { mobile } from "../responsive";
 
 const Container = styled.div`
   width: 100vw;
@@ -19,6 +22,7 @@ const Wrapper = styled.div`
   width: 25%;
   padding: 20px;
   background-color: #fff;
+  ${mobile({ width: "75%" })};
 `;
 
 const Title = styled.h1`
@@ -36,6 +40,7 @@ const Input = styled.input`
   min-width: 40%;
   margin: 10px 0px;
   padding: 10px;
+  ${mobile({ padding: "10px", margin: "5px 0px" })};
 `;
 
 const Button = styled.button`
@@ -47,6 +52,7 @@ const Button = styled.button`
   font-weight: 700;
   cursor: pointer;
   margin-bottom: 10px;
+  ${mobile({ padding: "10px 15px" })};
 `;
 
 const Link = styled.a`
