@@ -124,7 +124,27 @@ const Hr = styled.hr`
 
 const Summary = styled.div`
   flex: 1;
+  border: 0.5px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
+  height: 50vh;
 `;
+
+const SummaryTitle = styled.h1`
+  font-weight: 300;
+`;
+
+const SummaryItem = styled.div`
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+`;
+
+const SummaryItemText = styled.span``;
+
+const SummaryItemPrice = styled.span``;
+
+const Button = styled.button``;
 
 const Cart = () => {
   return (
@@ -200,20 +220,21 @@ const Cart = () => {
               <SummaryTitle>RESUMO DO PEDIDO</SummaryTitle>
               <SummaryItem>
                 <SummaryItemText>Subtotal</SummaryItemText>
-                <SummaryItemText>R$ 103,80</SummaryItemText>
+                <SummaryItemPrice>R$ 103,80</SummaryItemPrice>
               </SummaryItem>
               <SummaryItem>
                 <SummaryItemText>Valor do Frete</SummaryItemText>
-                <SummaryItemText>R$ 10,00</SummaryItemText>
+                <SummaryItemPrice>R$ 10,00</SummaryItemPrice>
               </SummaryItem>
               <SummaryItem>
                 <SummaryItemText>Desconto</SummaryItemText>
-                <SummaryItemText>R$ -0,00</SummaryItemText>
+                <SummaryItemPrice>R$ -0,00</SummaryItemPrice>
               </SummaryItem>
               <SummaryItem>
                 <SummaryItemText>Total</SummaryItemText>
-                <SummaryItemText>R$ 113,80</SummaryItemText>
+                <SummaryItemPrice>R$ 113,80</SummaryItemPrice>
               </SummaryItem>
+              <Button>FAÇA CHECKOUT</Button>
             </Summary>
           </Bottom>
         </Wrapper>
