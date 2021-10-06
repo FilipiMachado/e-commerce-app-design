@@ -138,13 +138,23 @@ const SummaryItem = styled.div`
   margin: 30px 0px;
   display: flex;
   justify-content: space-between;
+  font-weight: ${(props) => props.type === "total" && "500"};
+  font-size: ${(props) => props.type === "total" && "24px"};
 `;
 
 const SummaryItemText = styled.span``;
 
 const SummaryItemPrice = styled.span``;
 
-const Button = styled.button``;
+const Button = styled.button`
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+`;
 
 const Cart = () => {
   return (
@@ -230,7 +240,7 @@ const Cart = () => {
                 <SummaryItemText>Desconto</SummaryItemText>
                 <SummaryItemPrice>R$ -0,00</SummaryItemPrice>
               </SummaryItem>
-              <SummaryItem>
+              <SummaryItem type="total">
                 <SummaryItemText>Total</SummaryItemText>
                 <SummaryItemPrice>R$ 113,80</SummaryItemPrice>
               </SummaryItem>
