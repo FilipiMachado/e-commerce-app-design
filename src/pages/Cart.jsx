@@ -101,7 +101,7 @@ const PriceDetail = styled.div`
 const ProductAmountContainer = styled.div`
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 20px;0
 `;
 
 const ProductAmount = styled.div`
@@ -154,9 +154,9 @@ const Cart = () => {
                 </ProductDetail>
                 <PriceDetail>
                   <ProductAmountContainer>
-                    <Remove />
+                    <Remove style={{ cursor: "pointer" }} />
                     <ProductAmount>2</ProductAmount>
-                    <Add />
+                    <Add style={{ cursor: "pointer" }} />
                   </ProductAmountContainer>
                   <ProductPrice>$ 30</ProductPrice>
                 </PriceDetail>
