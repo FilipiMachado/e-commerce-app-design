@@ -46,9 +46,15 @@ const Button = styled.button`
   color: white;
   font-weight: 700;
   cursor: pointer;
+  margin-bottom: 10px;
 `;
 
-const Link = styled.a``;
+const Link = styled.a`
+  margin: 5px 0px;
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+`;
 
 const Login = () => {
   return (
