@@ -101,7 +101,7 @@ const PriceDetail = styled.div`
 const ProductAmountContainer = styled.div`
   display: flex;
   align-items: center;
-  margin-bottom: 20px;0
+  margin-bottom: 20px;
 `;
 
 const ProductAmount = styled.div`
@@ -112,6 +112,12 @@ const ProductAmount = styled.div`
 const ProductPrice = styled.div`
   font-size: 26px;
   font-weight: 400;
+`;
+
+const Hr = styled.hr`
+  background-color: #eee;
+  border: none;
+  height: 1px;
 `;
 
 const Summary = styled.div`
@@ -141,14 +147,14 @@ const Cart = () => {
                   <Image src="https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
                   <Details>
                     <ProductName>
-                      <b>Product:</b> JESSIE THUNDER SHOES
+                      <b>Produto:</b> TÊNIS ESPORTIVO
                     </ProductName>
                     <ProductId>
                       <b>ID:</b> 93813718292
                     </ProductId>
-                    <ProductColor color="black" />
+                    <ProductColor color="red" />
                     <ProductSize>
-                      <b>Size:</b> 34
+                      <b>Tamanho:</b> 34
                     </ProductSize>
                   </Details>
                 </ProductDetail>
@@ -158,7 +164,33 @@ const Cart = () => {
                     <ProductAmount>2</ProductAmount>
                     <Add style={{ cursor: "pointer" }} />
                   </ProductAmountContainer>
-                  <ProductPrice>$ 30</ProductPrice>
+                  <ProductPrice>R$ 79,90</ProductPrice>
+                </PriceDetail>
+              </Product>
+              <Hr />
+              <Product>
+                <ProductDetail>
+                  <Image src="https://images.unsplash.com/photo-1556306535-0f09a537f0a3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" />
+                  <Details>
+                    <ProductName>
+                      <b>Produto:</b> BONÉ RVCA
+                    </ProductName>
+                    <ProductId>
+                      <b>ID:</b> 93813718292
+                    </ProductId>
+                    <ProductColor color="gray" />
+                    <ProductSize>
+                      <b>Tamanho:</b> P
+                    </ProductSize>
+                  </Details>
+                </ProductDetail>
+                <PriceDetail>
+                  <ProductAmountContainer>
+                    <Remove style={{ cursor: "pointer" }} />
+                    <ProductAmount>1</ProductAmount>
+                    <Add style={{ cursor: "pointer" }} />
+                  </ProductAmountContainer>
+                  <ProductPrice>R$ 23,90</ProductPrice>
                 </PriceDetail>
               </Product>
             </Info>
