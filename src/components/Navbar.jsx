@@ -9,7 +9,7 @@ import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 
 const Container = styled.div`
   height: 60px;
-  ${mobile({ height: "50px" })};
+  ${mobile({ height: "60px" })};
 `;
 
 const Wrapper = styled.div`
@@ -17,7 +17,7 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  ${mobile({ padding: "10px 0px" })};
+  ${mobile({ padding: "5px 0px" })};
 `;
 
 // Left Div
@@ -40,10 +40,15 @@ const SearchContainer = styled.div`
   align-items: center;
   margin-left: 25px;
   padding: 5px;
+  ${mobile({
+    marginLeft: "5px",
+    marginRight: "5px",
+  })};
 `;
 
 const Input = styled.input`
   border: none;
+  ${mobile({ width: "50px" })};
 `;
 
 // Center Div
@@ -55,6 +60,7 @@ const Center = styled.div`
 
 const Logo = styled.h1`
   font-weight: bold;
+  ${mobile({ fontSize: "18px" })};
 `;
 
 // Right Div
@@ -64,6 +70,7 @@ const Right = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  ${mobile({flex: 3, justifyContent: "center" })};
 `;
 
 const MenuItem = styled.div`
@@ -71,6 +78,7 @@ const MenuItem = styled.div`
   cursor: pointer;
   margin-left: 25px;
   font-weight: 600;
+  ${mobile({ fontSize: "10px", marginLeft: "10px" })};
 `;
 
 const Navbar = () => {
@@ -81,7 +89,7 @@ const Navbar = () => {
           <Left>
             <Language>BR</Language>
             <SearchContainer>
-              <Input />
+              <Input placeholder="Search" />
               <Search style={{ color: "gray", fontSize: 16 }} />
             </SearchContainer>
           </Left>

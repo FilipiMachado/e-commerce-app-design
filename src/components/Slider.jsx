@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 // Style
 import styled from "styled-components";
+// Responsive Layout
+import { mobile } from "../responsive";
 // Material UI Icons
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
 // Data
@@ -12,6 +14,7 @@ const Container = styled.div`
   display: flex;
   position: relative;
   overflow: hidden;
+  ${mobile({ display: "none" })};
 `;
 
 // Slider Div
