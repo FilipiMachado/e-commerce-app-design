@@ -120,6 +120,8 @@ const Hr = styled.hr`
   height: 1px;
 `;
 
+// Summary Div
+
 const Summary = styled.div`
   flex: 1;
 `;
@@ -194,7 +196,25 @@ const Cart = () => {
                 </PriceDetail>
               </Product>
             </Info>
-            <Summary>summary</Summary>
+            <Summary>
+              <SummaryTitle>RESUMO DO PEDIDO</SummaryTitle>
+              <SummaryItem>
+                <SummaryItemText>Subtotal</SummaryItemText>
+                <SummaryItemText>R$ 103,80</SummaryItemText>
+              </SummaryItem>
+              <SummaryItem>
+                <SummaryItemText>Valor do Frete</SummaryItemText>
+                <SummaryItemText>R$ 10,00</SummaryItemText>
+              </SummaryItem>
+              <SummaryItem>
+                <SummaryItemText>Desconto</SummaryItemText>
+                <SummaryItemText>R$ -0,00</SummaryItemText>
+              </SummaryItem>
+              <SummaryItem>
+                <SummaryItemText>Total</SummaryItemText>
+                <SummaryItemText>R$ 113,80</SummaryItemText>
+              </SummaryItem>
+            </Summary>
           </Bottom>
         </Wrapper>
         <Footer />
