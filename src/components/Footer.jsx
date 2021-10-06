@@ -1,6 +1,8 @@
 import React from "react";
 // Style
 import styled from "styled-components";
+// Responsive Layout
+import { mobile } from "../responsive";
 // Icons
 import {
   Facebook,
@@ -14,6 +16,7 @@ import {
 
 const Container = styled.div`
   display: flex;
+  ${mobile({ flexDirection: "column" })};
 `;
 
 // Left Div
@@ -53,6 +56,7 @@ const SocialIcon = styled.div`
 const Center = styled.div`
   flex: 1;
   padding: 20px;
+  ${mobile({ display: "none" })};
 `;
 
 const Title = styled.h3`
@@ -78,6 +82,7 @@ const ListItem = styled.li`
 const Right = styled.div`
   flex: 1;
   padding: 20px;
+  ${mobile({ backgroundColor: "#FCF5F5" })};
 `;
 
 const ContactItem = styled.div`
