@@ -44,19 +44,21 @@ const Input = styled.input`
 `;
 
 const Agreement = styled.span`
-  font-size: 12px;
+  font-size: 14px;
   margin: 20px 0px;
-  ${mobile({ fontSize: "16px" })};
+  ${mobile({ fontSize: "16px", textAlign: "center" })};
 `;
 
 const Button = styled.button`
-  width: 40%;
+  width: 20%;
+  padding: 10px 15px;
+  margin: 10px 10px;
   border: none;
-  padding: 15px 20px;
   background-color: #00a5a5;
   color: white;
   font-weight: 700;
   cursor: pointer;
+  ${mobile({ width: "100%" })};
 `;
 
 const Register = () => {

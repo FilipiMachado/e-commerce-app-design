@@ -100,7 +100,7 @@ const Footer = () => {
     <>
       <Container>
         <Left>
-          <Logo>FIL.</Logo>
+          <Logo>SUA LOJA</Logo>
           <Desc>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. At animi
             natus asperiores, fugiat ab harum mollitia cupiditate, praesentium
@@ -122,16 +122,16 @@ const Footer = () => {
           </SocialContainer>
         </Left>
         <Center>
-          <Title>Useful Links</Title>
+          <Title>Links</Title>
           <List>
             <ListItem>Home</ListItem>
-            <ListItem>Cart</ListItem>
-            <ListItem>Man Fashion</ListItem>
-            <ListItem>Woman Fashion</ListItem>
-            <ListItem>Accessories</ListItem>
-            <ListItem>My Account</ListItem>
-            <ListItem>Wishlist</ListItem>
-            <ListItem>Terms</ListItem>
+            <ListItem>Carrinho</ListItem>
+            <ListItem>Moda Masculina</ListItem>
+            <ListItem>Moda Feminina</ListItem>
+            <ListItem>Acessórios</ListItem>
+            <ListItem>Minha COnta</ListItem>
+            <ListItem>Lista de Desejos</ListItem>
+            <ListItem>Termos</ListItem>
           </List>
         </Center>
         <Right>
