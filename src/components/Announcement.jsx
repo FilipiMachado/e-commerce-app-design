@@ -1,15 +1,18 @@
 // Style
 import styled from "styled-components";
+// Responsive Layout
+import {mobile} from "../responsive";
 
 const Container = styled.div`
   height: 30px;
   background-color: teal;
   color: #fff;
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-size: 14px;
+  align-items: center;
+  font-size: 12px;
   font-weight: bold;
+  ${mobile({ height: "30px" })};
 `;
 
 const Announcement = () => {

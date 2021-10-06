@@ -135,16 +135,17 @@ const Footer = () => {
           </List>
         </Center>
         <Right>
-          <Title>Contact</Title>
+          <Title>Contato</Title>
           <ContactItem>
             <Room style={{ marginRight: "10px" }} />
-            123 Avenue Simon, North Winchester 2585
+            123 Av. Padre Simão, Sul Baixada 2585
           </ContactItem>
           <ContactItem>
-            <Phone style={{ marginRight: "10px" }} /> 051 3673-8888
+            <Phone style={{ marginRight: "10px" }} /> 51 3673-8888
           </ContactItem>
           <ContactItem>
-            <MailOutline style={{ marginRight: "10px" }} /> contact@fil.dev
+            <MailOutline style={{ marginRight: "10px" }} />{" "}
+            filipisee@hotmail.com
           </ContactItem>
           <Payment src="https://i.imgur.com/NXt3eV9.png" />
         </Right>

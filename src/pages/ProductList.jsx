@@ -1,12 +1,14 @@
 import React from "react";
+// Style
+import styled from "styled-components";
+// Responsive Layout
+import { mobile } from "../responsive";
 // Components
 import Navbar from "../components/Navbar";
 import Announcement from "../components/Announcement";
 import Products from "../components/Products";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
-// Style
-import styled from "styled-components";
 
 const Container = styled.div``;
 
@@ -21,17 +23,20 @@ const FilterContainer = styled.div`
 
 const Filter = styled.div`
   margin: 20px;
+  ${mobile({ width: "0px 20px", display: "flex", flexDirection: "column" })};
 `;
 
 const FilterText = styled.span`
   font-size: 18px;
   font-weight: 500;
   margin-right: 20px;
+  ${mobile({ marginRight: "0px" })};
 `;
 
 const Select = styled.select`
   padding: 10px;
   margin-right: 20px;
+  ${mobile({ margin: "15px 5px" })};
 `;
 
 const Option = styled.option``;
