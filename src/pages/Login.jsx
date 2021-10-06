@@ -16,7 +16,7 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-  width: 40%;
+  width: 25%;
   padding: 20px;
   background-color: #fff;
 `;
@@ -34,7 +34,7 @@ const Form = styled.form`
 const Input = styled.input`
   flex: 1;
   min-width: 40%;
-  margin: 20px 10px 0px 0px;
+  margin: 10px 0px;
   padding: 10px;
 `;
 
@@ -61,7 +61,7 @@ const Login = () => {
             <Input placeholder="senha" />
             <Button>LOGAR</Button>
             <Link>ESQUECEU A SENHA?</Link>
-            <Link>CRIAR UMA NOVA CONTA</Link>
+            <Link>CRIAR NOVA CONTA</Link>
           </Form>
         </Wrapper>
       </Container>

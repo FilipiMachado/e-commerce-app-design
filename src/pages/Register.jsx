@@ -9,14 +9,14 @@ const Container = styled.div`
     ),
     url("https://images.unsplash.com/photo-1570915226741-cc7d678ad7ce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=728&q=80")
       center;
-
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
 `;
 
 const Wrapper = styled.div`
-  width: 25%;
+  width: 40%;
   padding: 20px;
   background-color: #fff;
 `;
