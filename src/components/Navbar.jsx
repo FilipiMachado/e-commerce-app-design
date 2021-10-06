@@ -1,12 +1,15 @@
 import React from "react";
 // Style
 import styled from "styled-components";
+// Responsive Layout
+import { mobile } from "../responsive";
 // Material UI Icons
 import { Badge } from "@material-ui/core";
 import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 
 const Container = styled.div`
   height: 60px;
+  ${mobile({ height: "50px" })};
 `;
 
 const Wrapper = styled.div`
@@ -14,6 +17,7 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  ${mobile({ padding: "10px 0px" })};
 `;
 
 // Left Div
@@ -27,6 +31,7 @@ const Left = styled.div`
 const Language = styled.span`
   font-size: 14px;
   cursor: pointer;
+  ${mobile({ display: "none" })};
 `;
 
 const SearchContainer = styled.div`
