@@ -3,13 +3,16 @@ import React from "react";
 import CategoryItem from "./CategoryItem";
 // Style
 import styled from "styled-components";
+// Responsive Layout
+import { mobile } from "../responsive";
 // Data
 import { categories } from "../data";
 
 const Container = styled.div`
-    display: flex;
-    padding: 20px;
-    justify-content: space-between;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  ${mobile({ padding: "0px", flexDirection: "column" })};
 `;
 
 const Categories = () => {
@@ -17,7 +20,7 @@ const Categories = () => {
     <>
       <Container>
         {categories.map((item) => (
-          <CategoryItem item={item} key={item.id}/>
+          <CategoryItem item={item} key={item.id} />
         ))}
       </Container>
     </>
