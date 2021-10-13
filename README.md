@@ -3,9 +3,9 @@
 <p align="center">
   <a href="https://imgur.com/ByKD7Fq"><img src="https://imgur.com/ByKD7Fq.png" title="source: imgur.com" /></a>
 </p>
-<h1 align="center">
-    <a href="https://imgur.com/Ex3Ewuh"><img src="https://imgur.com/Ex3Ewuh.png" title="source: imgur.com" /></a>
-</h1>
+<p align="center">
+    <a href="https://imgur.com/JTRNdCo"><img src="https://imgur.com/JTRNdCo.png" title="source: imgur.com" /></a>
+</p>
 
 <br>
 
