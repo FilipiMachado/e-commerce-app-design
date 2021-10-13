@@ -6,6 +6,9 @@
 <p align="center">
     <a href="https://imgur.com/JTRNdCo"><img src="https://imgur.com/JTRNdCo.png" title="source: imgur.com" /></a>
 </p>
+<p align="center">
+  <a href="https://imgur.com/1P32oPB"><img src="https://imgur.com/1P32oPB.png" title="source: imgur.com" /></a>
+</p>
 
 <br>
 
