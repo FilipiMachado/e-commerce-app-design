@@ -1,4 +1,4 @@
-<h2>Loja de Roupas / E-commerce App Design</h2>
+<h2 style="text-align: center">Loja de Roupas / E-commerce App Design</h2>
 
 <p align="center">
   <a href="https://imgur.com/ByKD7Fq"><img src="https://imgur.com/ByKD7Fq.png" title="source: imgur.com" /></a>
